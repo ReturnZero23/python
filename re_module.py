@@ -7,3 +7,8 @@ for line in file:
     if object:
         print(line,end='')
     #print(line,end='')
+
+
+str = input('enter a string:')
+print(re.split('s',str))
+
